@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0mD:\PersonalStudy\projects\helloworld-scala\src\main\scala\Main.scala:95:27: value lengt is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean length?[0m
+[0m[[0m[31merror[0m] [0m[0m    println("hello world".lengt)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

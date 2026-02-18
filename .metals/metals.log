@@ -1,0 +1,19 @@
+2026.02.18 23:50:28 INFO  Started: Metals version 1.6.5 in folders 'D:\PersonalStudy\projects\Scala_Basics' for client Visual Studio Code 1.109.4.
+2026.02.18 23:50:28 INFO  Memory monitor started
+2026.02.18 23:50:28 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.18 23:50:28 INFO  no build target found for D:\PersonalStudy\projects\Scala_Basics\scala3-seed\aliases.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+feb 18, 2026 11:50:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+feb 18, 2026 11:50:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+feb 18, 2026 11:50:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.02.18 23:50:29 INFO  no build target found for D:\PersonalStudy\projects\Scala_Basics\scala3-seed\aliases.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.18 23:50:29 INFO  Attempting to connect to the build server...
+2026.02.18 23:50:29 INFO  No running Bloop server found, starting one.
+2026.02.18 23:50:30 INFO  Starting compilation server
+2026.02.18 23:50:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\PersonalStudy\projects\Scala_Basics\.metals\bsp.trace.json or C:\Users\Utente\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.18 23:50:31 WARN  Could not find semantic tokens for: file:///D:/PersonalStudy/projects/Scala_Basics/scala3-seed/aliases.sbt
+2026.02.18 23:50:32 INFO  time: Connected to build server in 2.88s
+2026.02.18 23:50:32 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.18 23:50:32 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2

@@ -1,0 +1,16 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 11 __6ebb6787-78fb-403a-9596-d920932eea7a, None, None)
+[debug] > Exec(bspBuildTargetJVMRunEnvironment file:/D:/PersonalStudy/projects/helloworld-scala/#helloworld-scala/Compile, Some(__6ebb6787-78fb-403a-9596-d920932eea7a), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/jvmRunEnvironment"})
+[debug] Evaluating tasks: Compile / bspBuildTargetJVMRunEnvironment
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"12","parents":[]},"eventTime":1771449474845,"message":"Compiling helloworld-scala","dataKind":"compile-task","data":{"target":{"uri":"file:/D:/PersonalStudy/projects/helloworld-scala/#helloworld-scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"12","parents":[]},"eventTime":1771449474848,"message":"Compiled helloworld-scala","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/D:/PersonalStudy/projects/helloworld-scala/#helloworld-scala/Compile"},"errors":0,"warnings":0,"time":3,"noOp":true}})
+[success] Total time: 0 s, completed 18 feb 2026, 22:17:54
+[debug] > Exec(sbtCompleteExec 11, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 11, Some(11), Some(CommandSource(network-1)))
+[debug] unmatched Processing event for requestId Some(11): None
+[debug] unmatched json response for requestId Some(11): {"status":"Done","channelName":"network-1","execId":"11","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)
