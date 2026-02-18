@@ -17,3 +17,8 @@ WARNING: Unmatched cancel notification for request id 1
 2026.02.18 23:50:32 INFO  time: Connected to build server in 2.88s
 2026.02.18 23:50:32 INFO  Connected to Build server: Bloop v2.0.18
 2026.02.18 23:50:32 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+2026.02.18 23:50:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.18 23:50:34 INFO  time: indexed workspace in 2.09s
+2026.02.18 23:50:34 WARN  no build target for: D:\PersonalStudy\projects\Scala_Basics\scala3-seed\aliases.sbt
+2026.02.18 23:50:34 INFO  no build target found for D:\PersonalStudy\projects\Scala_Basics\scala3-seed\aliases.sbt. Using presentation compiler with project's scala-library version: 2.13.18
+2026.02.18 23:50:34 WARN  no build target for: D:\PersonalStudy\projects\Scala_Basics\scala3-seed\aliases.sbt
