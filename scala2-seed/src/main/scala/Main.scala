@@ -78,13 +78,15 @@ object Main {
 
       //!TRAITS
 
-      print("All other keywords (val, var, def, lazy val MUST be written inside a top-level definition)") //!not like this in SCALA3
+      print("All other keywords (val, var, def, lazy val MUST be written inside a top-level definition)") 
+
+      //!not like this in SCALA3 in which everything can be on TOP-LEVEL
     }
 
     println("-" * 50)
 
 
-    val const2 = {
+    val const2: Int = { //if I want sto specify return type
       def method = 1337
 
       method //methods and functions are 'blurry', not clear disitnction
@@ -93,7 +95,7 @@ object Main {
     println(const2)
 
     println("hello world".length) //!METHOD in Scala we can leave out the empty brackets ()
-    print(args.length) //!FIELD
+    println(args.length) //!FIELD
 
     println("-" * 50)
   }
